@@ -29,17 +29,23 @@
    `/dumpinventory [player]`
 ### 输出示例
 执行命令后，将在聊天栏显示类似以下信息：
-`玩家背包物品列表 (PlayerName):
+玩家背包物品列表 (PlayerName):
+
 minecraft:diamond_sword x1
+
 minecraft:diamond x10
-minecraft:apple x32 总计: 3 种物品`
+
+minecraft:apple x32 总计: 3 种物品
+
+
 同时会在游戏目录的`logs`文件夹中生成日志文件，文件名格式为`inventory_dump_YYYYMMDD_HHMMSS.log`，内容包括：
-`Player: PlayerName
+
+Player: PlayerName
 UUID: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 Inventory Items (3):
 minecraft:diamond_sword x1
 minecraft:diamond x10
-minecraft:apple x32`
+minecraft:apple x32
 ## 权限说明
 
 - 只有拥有权限等级2或以上的玩家才能使用此命令

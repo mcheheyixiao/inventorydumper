@@ -15,7 +15,7 @@
 
 ### 命令格式
 
-''/dumpinventory [player]''
+`/dumpinventory [player]`
 
 ### 权限要求
 
@@ -24,22 +24,22 @@
 ### 使用示例
 
 1. 导出自己的背包物品：
-   ''/dumpinventory''
+   `/dumpinventory`
 2. 导出指定玩家的背包物品：
-   ''/dumpinventory [player]''
+   `/dumpinventory [player]`
 ### 输出示例
 执行命令后，将在聊天栏显示类似以下信息：
->玩家背包物品列表 (PlayerName):
->minecraft:diamond_sword x1
->minecraft:diamond x10
->minecraft:apple x32 总计: 3 种物品
+`玩家背包物品列表 (PlayerName):
+minecraft:diamond_sword x1
+minecraft:diamond x10
+minecraft:apple x32 总计: 3 种物品`
 同时会在游戏目录的`logs`文件夹中生成日志文件，文件名格式为`inventory_dump_YYYYMMDD_HHMMSS.log`，内容包括：
->Player: PlayerName
->UUID: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
->Inventory Items (3):
->minecraft:diamond_sword x1
->minecraft:diamond x10
->minecraft:apple x32
+`Player: PlayerName
+UUID: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+Inventory Items (3):
+minecraft:diamond_sword x1
+minecraft:diamond x10
+minecraft:apple x32`
 ## 权限说明
 
 - 只有拥有权限等级2或以上的玩家才能使用此命令
